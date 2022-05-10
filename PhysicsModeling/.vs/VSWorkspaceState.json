@@ -7,6 +7,6 @@
     "\\PhysicsModeling\\includes",
     "\\PhysicsModeling\\includes\\Windows"
   ],
-  "SelectedNode": "\\PhysicsModeling\\CMakeLists.txt",
+  "SelectedNode": "\\PhysicsModeling\\dx9Init\\d3d9framework.cpp",
   "PreviewInSolutionExplorer": false
 }

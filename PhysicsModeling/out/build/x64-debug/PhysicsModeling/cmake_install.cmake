@@ -34,7 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/parksangwo/Desktop/Github/Physics-Modeling/PhysicsModeling/out/build/x64-debug/PhysicsModeling/dx9Init/cmake_install.cmake")
+  include("C:/Users/parksangwo/Desktop/Github/Physics-Modeling/PhysicsModeling/out/build/x64-debug/PhysicsModeling/1.dx9Init/cmake_install.cmake")
+  include("C:/Users/parksangwo/Desktop/Github/Physics-Modeling/PhysicsModeling/out/build/x64-debug/PhysicsModeling/2.meshloader/cmake_install.cmake")
   include("C:/Users/parksangwo/Desktop/Github/Physics-Modeling/PhysicsModeling/out/build/x64-debug/PhysicsModeling/includes/cmake_install.cmake")
 
 endif()

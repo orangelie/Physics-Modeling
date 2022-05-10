@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "PhysicsModeling/1.dx9Init",
+		"source" : "PhysicsModeling/1.dx9Init"
+	}
+}

@@ -2,7 +2,13 @@
 
 set(WIN32_SRC "../includes/Windows/Win32.cpp")
 
-project ("d3d9Init")
+project ("1.dx9Init")
+add_subdirectory ("1.dx9Init")
 
-add_subdirectory ("dx9Init")
+project ("2.meshloader")
+add_subdirectory ("2.meshloader")
+
 add_subdirectory ("includes")
+
+target_include_directories(1.dx9Init PUBLIC "./Dx9Include")
+target_include_directories(2.meshloader PUBLIC "./Dx9Include")

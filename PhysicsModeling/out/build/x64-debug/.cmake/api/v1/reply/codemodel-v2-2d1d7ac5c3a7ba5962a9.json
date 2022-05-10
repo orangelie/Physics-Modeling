@@ -1,0 +1,155 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "PhysicsModeling",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-PhysicsModeling-Debug-f15b566e620562e5e1e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "PhysicsModeling"
+				},
+				{
+					"build" : "PhysicsModeling/1.dx9Init",
+					"jsonFile" : "directory-PhysicsModeling.1.dx9Init-Debug-56110284fd0a6aa2c659.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "PhysicsModeling/1.dx9Init",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "PhysicsModeling/2.meshloader",
+					"jsonFile" : "directory-PhysicsModeling.2.meshloader-Debug-8fabf32db38be7c74ef6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "PhysicsModeling/2.meshloader",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "PhysicsModeling/includes",
+					"jsonFile" : "directory-PhysicsModeling.includes-Debug-ff3132dc8408c11077f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "PhysicsModeling/includes"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project"
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"name" : "2.meshloader",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "1.dx9Init",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "1.dx9Init::@7f26de5b870a0de6f1f5",
+					"jsonFile" : "target-1.dx9Init-Debug-d64dc7aab4f62c26675a.json",
+					"name" : "1.dx9Init",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "2.meshloader::@05982ab2152e1e88d747",
+					"jsonFile" : "target-2.meshloader-Debug-4fa502f4223e98bf2a88.json",
+					"name" : "2.meshloader",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/parksangwo/Desktop/Github/Physics-Modeling/PhysicsModeling/out/build/x64-debug",
+		"source" : "C:/Users/parksangwo/Desktop/Github/Physics-Modeling/PhysicsModeling"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
