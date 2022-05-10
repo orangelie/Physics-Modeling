@@ -1,16 +1,9 @@
 ﻿#pragma once
 #pragma comment(lib, "d3d9")
 
+#include "Win32.h"
+
 #include <d3d9.h>
-
-#include "Windows.h"
-
-#define HR(n) { \
-	if(FAILED(n)) { \
-		std::string e = std::to_string(__LINE__) + std::string(__FILE__) + std::string(__FUNCTION__); \
-		throw std::runtime_error(e); \
-	} \
-} \
 
 namespace orangelie {
 
