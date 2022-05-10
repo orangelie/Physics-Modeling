@@ -12,6 +12,9 @@ namespace orangelie {
 		}
 
 		void d3d9app::Initialize(int screenWidth, int screenHeight, bool isFullscreen) {
+			m_ClientWidth = screenWidth;
+			m_ClientHeight = screenHeight;
+
 			m_Win32 = std::make_unique<orangelie::Windows::Win32>();
 			m_Win32->Intialize(CommandProcedure, screenWidth, screenHeight, isFullscreen);
 
