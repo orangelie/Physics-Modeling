@@ -2,9 +2,9 @@
 
 ![](https://img.shields.io/github/followers/orangelie.svg?style=social&label=Follow&maxAge=2592000)
 
-# How to use??
-[B]: Simulate a physicsal simulation.
-[Esc]: Exit a game.
+# How to use??  
+[B]: Simulate a physicsal simulation.  
+[Esc]: Exit a game.  
 <br></br>
 The folders and files in this location are physical simulations using **Unity3D**.
 Of course, we will implement physical simulation directly, so we will **not use Unity's supported physical engine and Rigidbody components**, and we will **only use Unity3D rendering** technology.
