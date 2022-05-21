@@ -6,6 +6,7 @@
 # Precompiled Headers
 *.gch
 *.pch
+*.ipch
 
 # Fortran module files
 *.mod
@@ -15,3 +16,4 @@
 *.meta
 *.ipch
 *.db
+*.opendb

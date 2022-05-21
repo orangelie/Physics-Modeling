@@ -1,0 +1,5 @@
+C:/Users/parksangwo/Desktop/Github/Physics-Modeling/Direct3D/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/parksangwo/Desktop/Github/Physics-Modeling/Direct3D/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/parksangwo/Desktop/Github/Physics-Modeling/Direct3D/out/build/x64-debug/Direct3D/CMakeFiles/Direct3D.dir
+C:/Users/parksangwo/Desktop/Github/Physics-Modeling/Direct3D/out/build/x64-debug/Direct3D/CMakeFiles/edit_cache.dir
+C:/Users/parksangwo/Desktop/Github/Physics-Modeling/Direct3D/out/build/x64-debug/Direct3D/CMakeFiles/rebuild_cache.dir

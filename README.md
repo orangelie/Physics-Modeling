@@ -3,7 +3,7 @@
 ![](https://img.shields.io/github/followers/orangelie.svg?style=social&label=Follow&maxAge=2592000)
 
 😀 Hello, everyone.  😀  
-This repository is a cmake project about physical engine, physical simulation, and physical rendering based on **directx9, directx11 and unity3d**.
+This repository is a cmake project about physical engine, physical simulation, and physical rendering based on **directx9, directx11, directx12 and unity3d**.
 ***Please understand that my skills regarding cmake are poor. :D***  
   
 I am a student who is interested in  

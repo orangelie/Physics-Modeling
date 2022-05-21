@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/parksangwo/Desktop/Github/Physics-Modeling/Direct3D/out/build/x64-debug/Direct3D/CMakeFiles/Direct3D.dir/embed.manifest"

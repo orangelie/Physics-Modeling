@@ -68,6 +68,9 @@ public class PointMass : MonoBehaviour
 
         totalTime += Time.deltaTime * animateSpeedx;
 
+        // 힘한번만 주고 끊기
+        // 이유: 원래 중력이나 기타관성들을 구현했다면 이문장이 필요없지만,
+        // 중력이없을경우 이에 대응되는 관성이 전혀생기지않기 때문에, 이런식으로 수동적으로 힘을 없애준다.
         if (!forceApplied)
         {
             forceApplied = true;
@@ -98,7 +101,7 @@ public class PointMass : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.B) && !Restart)
         {
             force.Set(5.0f, 0.0f, 0.0f);
-            e_force.Set(0.0f, -5.0f, 0.0f);
+            e_force.Set(-5.0f, 0.0f, 0.0f);
             totalTime = 0.0f;
             forceApplied = false;
             Restart = true;

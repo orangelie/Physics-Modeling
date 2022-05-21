@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PhysicsModelingDX12",
+    "\\PhysicsModelingDX12\\STATIC",
+    "\\PhysicsModelingDX12\\STATIC\\HEADER",
+    "\\PhysicsModelingDX12\\STATIC\\HEADER\\PUBLIC",
+    "\\PhysicsModelingDX12\\STATIC\\HEADER\\PUBLIC\\Font",
+    "\\PhysicsModelingDX12\\STATIC\\SOURCE",
+    "\\PhysicsModelingDX12\\STATIC\\SOURCE\\PRIVATE\\Texture",
+    "\\PhysicsModelingDX12\\STATIC\\SOURCE\\PUBLIC",
+    "\\PhysicsModelingDX12\\STATIC\\SOURCE\\PUBLIC\\Font"
+  ],
+  "SelectedNode": "\\PhysicsModelingDX12\\STATIC\\HEADER\\PUBLIC\\Engine",
+  "PreviewInSolutionExplorer": false
+}

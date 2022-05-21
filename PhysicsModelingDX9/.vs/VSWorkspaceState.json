@@ -4,8 +4,9 @@
     "\\out",
     "\\PhysicsModeling",
     "\\PhysicsModeling\\1.dx9Init",
-    "\\PhysicsModeling\\2.meshloader"
+    "\\PhysicsModeling\\2.meshloader",
+    "\\PhysicsModeling\\includes"
   ],
-  "SelectedNode": "\\PhysicsModeling\\2.meshloader\\d3d9framework.cpp",
+  "SelectedNode": "\\PhysicsModeling\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }

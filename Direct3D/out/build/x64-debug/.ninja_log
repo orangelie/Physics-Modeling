@@ -1,0 +1,23 @@
+# ninja log v5
+1	1187	6748396160759719	Direct3D/CMakeFiles/Direct3D.dir/InertiaTensor/InertiaTensor.cpp.obj	1a5d3ef3a2034d4
+3	1189	6748396160759719	Direct3D/CMakeFiles/Direct3D.dir/InertiaTensor/main.cpp.obj	6e4b57854e1e7e8d
+0	1299	6748397027260786	Direct3D/CMakeFiles/Direct3D.dir/InertiaTensor/InertiaTensor.cpp.obj	1a5d3ef3a2034d4
+3	1301	6748397027260786	Direct3D/CMakeFiles/Direct3D.dir/InertiaTensor/main.cpp.obj	6e4b57854e1e7e8d
+1301	1575	6748397029916748	Direct3D/Direct3D.exe	cedd827139c076be
+0	1367	6748399629710005	Direct3D/CMakeFiles/Direct3D.dir/InertiaTensor/main.cpp.obj	6e4b57854e1e7e8d
+3	1369	6748399629710005	Direct3D/CMakeFiles/Direct3D.dir/InertiaTensor/InertiaTensor.cpp.obj	1a5d3ef3a2034d4
+1370	1536	6748399631116140	Direct3D/Direct3D.exe	cedd827139c076be
+0	1596	6748412249220487	Direct3D/CMakeFiles/Direct3D.dir/InertiaTensor/main.cpp.obj	6e4b57854e1e7e8d
+3	1599	6748412249220487	Direct3D/CMakeFiles/Direct3D.dir/InertiaTensor/InertiaTensor.cpp.obj	1a5d3ef3a2034d4
+1600	1795	6748412250782805	Direct3D/Direct3D.exe	cedd827139c076be
+0	1233	6748412437325606	Direct3D/CMakeFiles/Direct3D.dir/InertiaTensor/InertiaTensor.cpp.obj	1a5d3ef3a2034d4
+1234	1385	6748412438575517	Direct3D/Direct3D.exe	cedd827139c076be
+0	1153	6748413542364264	Direct3D/CMakeFiles/Direct3D.dir/InertiaTensor/InertiaTensor.cpp.obj	1a5d3ef3a2034d4
+1154	1309	6748413543614176	Direct3D/Direct3D.exe	cedd827139c076be
+0	1545	6748442728215223	Direct3D/CMakeFiles/Direct3D.dir/InertiaTensor/InertiaTensor.cpp.obj	1a5d3ef3a2034d4
+1545	1697	6748442729465140	Direct3D/Direct3D.exe	cedd827139c076be
+0	1137	6748443147256083	Direct3D/CMakeFiles/Direct3D.dir/InertiaTensor/main.cpp.obj	6e4b57854e1e7e8d
+3	1143	6748443147256083	Direct3D/CMakeFiles/Direct3D.dir/InertiaTensor/InertiaTensor.cpp.obj	1a5d3ef3a2034d4
+1144	1321	6748443148818423	Direct3D/Direct3D.exe	cedd827139c076be
+0	1202	6748443595651642	Direct3D/CMakeFiles/Direct3D.dir/InertiaTensor/main.cpp.obj	6e4b57854e1e7e8d
+1202	1363	6748443596901549	Direct3D/Direct3D.exe	cedd827139c076be
