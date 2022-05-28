@@ -10,7 +10,7 @@
 
 
 
-
+#pragma once
 #include "SAMPLES/PhysicsEngine.h"
 
 /*

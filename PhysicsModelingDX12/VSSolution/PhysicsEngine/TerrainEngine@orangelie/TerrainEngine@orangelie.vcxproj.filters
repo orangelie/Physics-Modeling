@@ -266,6 +266,9 @@
     <ClInclude Include="MainDefinition.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\PhysicsTool\Cannon1.h">
+      <Filter>헤더 파일\PUBLIC\PhysicsTool</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="..\..\1. DirectX12Initialization\x64\Debug\Shader\Default.hlsl">

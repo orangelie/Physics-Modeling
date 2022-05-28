@@ -161,7 +161,7 @@ protected:
 
 		auto BoxRitem = std::make_unique<orangelie::Rendering::RenderItem>();
 		BoxRitem->ObjCBIndex = m_ID++;
-		XMStoreFloat4x4(&BoxRitem->World, XMMatrixTranslation(boxOpt.x, boxOpt.y, boxOpt.z) * XMMatrixScaling(boxOpt.scale_x, boxOpt.scale_y, boxOpt.scale_z));
+		XMStoreFloat4x4(&BoxRitem->World, XMMatrixScaling(boxOpt.scale_x, boxOpt.scale_y, boxOpt.scale_z) * XMMatrixTranslation(boxOpt.x, boxOpt.y, boxOpt.z));
 		BoxRitem->TexTransform = orangelie::Utility::Tools::Identity();
 		BoxRitem->MeshGeo = m_Geometrics["boxGeo"].get();
 		BoxRitem->IndexCount = BoxRitem->MeshGeo->Submeshes["box"].IndexCount;
@@ -376,7 +376,7 @@ private:
 
 	void BuildSphereGeometry() {
 		orangelie::Mesh::GeometryGenerator geoGen;
-		auto sphereGeo = geoGen.CreateSphere(1.0f, 32, 32);
+		auto sphereGeo = geoGen.CreateSphere(1.0f, 16, 16);
 
 		using orangelie::Mesh::Vertex2;
 		std::vector<Vertex2> vertices(sphereGeo.vertices.size());
@@ -750,7 +750,7 @@ protected:
 			auto scale = m_DUpdateObjs[i]->GetScale();
 
 			auto r = m_AllRitems[(size_t)m_DUpdateObjs[i]->GetID()].get();
-			XMStoreFloat4x4(&r->World, XMMatrixTranslation(pos.x, pos.y, pos.z) * XMMatrixScaling(scale.x, scale.y, scale.z));
+			XMStoreFloat4x4(&r->World, XMMatrixScaling(scale.x, scale.y, scale.z) * XMMatrixTranslation(pos.x, pos.y, pos.z));
 			r->NumFramesDirty = 3;
 		}
 
