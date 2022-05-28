@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\PUBLIC">
+      <UniqueIdentifier>{46f6e293-6fe5-4183-b50d-b5fbb3143f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PUBLIC\DxInterface">
+      <UniqueIdentifier>{41099da2-7d0d-4433-ba29-777fbe54eec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PUBLIC\Windows">
+      <UniqueIdentifier>{3176511a-10ef-409e-8230-7e825a4c9483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PUBLIC\Utility">
+      <UniqueIdentifier>{843ce3d0-00e5-491c-8627-ebca9823c207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PUBLIC\Engine">
+      <UniqueIdentifier>{b8753e03-df01-4fda-a0f8-00284e654f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PUBLIC">
+      <UniqueIdentifier>{2c0d774a-8d01-4799-b429-edff9a48f918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PUBLIC\DxInterface">
+      <UniqueIdentifier>{31cb84fd-4841-4cf9-84c3-91c3000b1e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PUBLIC\Engine">
+      <UniqueIdentifier>{1704c329-2c7a-4d79-8465-6ee9ce2d2ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PUBLIC\Utility">
+      <UniqueIdentifier>{5d009bea-c41c-4e51-b8df-956d937ee6dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PUBLIC\Windows">
+      <UniqueIdentifier>{12da2491-76d7-496b-8486-302b5c41e897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PRIVATE">
+      <UniqueIdentifier>{d7a2bee9-d1e2-49d1-b9eb-837393109d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PRIVATE\Texture">
+      <UniqueIdentifier>{8ef07bb7-288e-43dc-ae3f-8667f9f0f671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PUBLIC\Time">
+      <UniqueIdentifier>{aeb94605-d225-4e11-8161-c647bdcb4d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PUBLIC\Time">
+      <UniqueIdentifier>{e44351b5-a626-40eb-8157-17462676fef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="엔진목록">
+      <UniqueIdentifier>{cd4f73f0-4f7b-4bc1-8f83-dc56ec87a76d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PUBLIC\Gpu">
+      <UniqueIdentifier>{5880ba1c-95c7-479c-95cc-5bf67360318a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PUBLIC\Gpu">
+      <UniqueIdentifier>{391114e8-22db-4553-9971-3fa73cf4dc09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PRIVATE">
+      <UniqueIdentifier>{47d2ee4a-5bdb-4c02-ad9f-d93b569902eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PRIVATE\DxInterface">
+      <UniqueIdentifier>{02a23dbf-b36b-460a-9a0e-d7165b0b3f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PRIVATE\Texture">
+      <UniqueIdentifier>{6a0a831a-95f3-4d19-957a-d805f77b0225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PUBLIC\Shader">
+      <UniqueIdentifier>{41393351-006b-44c0-aabe-3a7079a33797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PUBLIC\Shader">
+      <UniqueIdentifier>{a11ee742-1086-4e0b-a711-70f38b94f04a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PUBLIC\Mesh">
+      <UniqueIdentifier>{fa736a75-cd7d-4e44-8df9-265965abf48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PUBLIC\Mesh">
+      <UniqueIdentifier>{26f72dbf-1ba1-461c-a02c-bd609e746115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PUBLIC\Camera">
+      <UniqueIdentifier>{06fa3908-cd85-4c19-a8e2-94bd07822546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PUBLIC\Camera">
+      <UniqueIdentifier>{24927fda-a3ed-446f-9ca6-497ed6088651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PUBLIC\Rendering">
+      <UniqueIdentifier>{be3f82bd-23d2-46d0-b333-8aa4cded8ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PUBLIC\Rendering">
+      <UniqueIdentifier>{e78ddde2-1671-42b8-8b91-74b54b83c865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PUBLIC\Lighting">
+      <UniqueIdentifier>{ac88e42a-9c18-476b-9d45-2f21679a386c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PUBLIC\Lighting">
+      <UniqueIdentifier>{798d1d9d-89b7-4bcf-903c-2c6ac1b8b0d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PUBLIC\Font">
+      <UniqueIdentifier>{6bac1005-af12-447c-a446-72b4e4f329e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PUBLIC\Font">
+      <UniqueIdentifier>{e56ca797-5dc6-444a-b409-12d6909f3be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PUBLIC\Texture">
+      <UniqueIdentifier>{8e1709b7-6a73-4ec9-ba3f-4195541c45bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PUBLIC\Texture">
+      <UniqueIdentifier>{0f0018cf-050b-4b7a-be4d-b447b9452ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PUBLIC\PhysicsTool">
+      <UniqueIdentifier>{7877844d-75b1-47ef-813a-012d6117a51c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\PUBLIC\PhysicsTool">
+      <UniqueIdentifier>{10d5e914-5624-4f0c-8117-1d6f0137e1a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PRIVATE\Texture\DDSTextureLoader.cpp">
+      <Filter>소스 파일\PRIVATE\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\DxInterface\InterfaceD3D12.cpp">
+      <Filter>소스 파일\PUBLIC\DxInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\DxInterface\InterfeceDxgi.cpp">
+      <Filter>소스 파일\PUBLIC\DxInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\Engine\ZekrosEngine.cpp">
+      <Filter>소스 파일\PUBLIC\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\Time\GameTimer.cpp">
+      <Filter>소스 파일\PUBLIC\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\Utility\CppStdUtil.cpp">
+      <Filter>소스 파일\PUBLIC\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\Windows\Windows.cpp">
+      <Filter>소스 파일\PUBLIC\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameResources.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\Shader\ShaderSystem.cpp">
+      <Filter>소스 파일\PUBLIC\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\Mesh\MeshTools.cpp">
+      <Filter>소스 파일\PUBLIC\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\Utility\DxgiUtil.cpp">
+      <Filter>소스 파일\PUBLIC\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\Camera\DefaultCamera.cpp">
+      <Filter>소스 파일\PUBLIC\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\Rendering\RenderSystem.cpp">
+      <Filter>소스 파일\PUBLIC\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\Mesh\GeometryGenerator.cpp">
+      <Filter>소스 파일\PUBLIC\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\Lighting\LightingUtils.cpp">
+      <Filter>소스 파일\PUBLIC\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\Texture\TextureTools.cpp">
+      <Filter>소스 파일\PUBLIC\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\Font\FontEngine.cpp">
+      <Filter>소스 파일\PUBLIC\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\Font\FontLoader.cpp">
+      <Filter>소스 파일\PUBLIC\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\STATIC\SOURCE\PUBLIC\PhysicsTool\PhysicsInitializer.cpp">
+      <Filter>소스 파일\PUBLIC\PhysicsTool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\DxInterface\InterfaceD3D12.h">
+      <Filter>헤더 파일\PUBLIC\DxInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\DxInterface\InterfeceDxgi.h">
+      <Filter>헤더 파일\PUBLIC\DxInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Gpu\UploadBuffer.h">
+      <Filter>헤더 파일\PUBLIC\Gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Time\GameTimer.h">
+      <Filter>헤더 파일\PUBLIC\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Utility\CppStdUtil.h">
+      <Filter>헤더 파일\PUBLIC\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Windows\Windows.h">
+      <Filter>헤더 파일\PUBLIC\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Windows\Wrl.h">
+      <Filter>헤더 파일\PUBLIC\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\SAMPLES\DirectX12Init.h">
+      <Filter>엔진목록</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PRIVATE\DxInterface\d3dx12.h">
+      <Filter>헤더 파일\PRIVATE\DxInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PRIVATE\Texture\DDSTextureLoader.h">
+      <Filter>헤더 파일\PRIVATE\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Engine\ZekrosEngine.h">
+      <Filter>헤더 파일\PUBLIC\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameResources.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Shader\ShaderSystem.h">
+      <Filter>헤더 파일\PUBLIC\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\SAMPLES\GridAndCameraMovement.h">
+      <Filter>엔진목록</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Utility\DxgiUtil.h">
+      <Filter>헤더 파일\PUBLIC\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Mesh\MeshTools.h">
+      <Filter>헤더 파일\PUBLIC\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Camera\DefaultCamera.h">
+      <Filter>헤더 파일\PUBLIC\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Rendering\RenderSystem.h">
+      <Filter>헤더 파일\PUBLIC\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Mesh\GeometryGenerator.h">
+      <Filter>헤더 파일\PUBLIC\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Lighting\LightingUtils.h">
+      <Filter>헤더 파일\PUBLIC\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Texture\TextureTools.h">
+      <Filter>헤더 파일\PUBLIC\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Font\FontEngine.h">
+      <Filter>헤더 파일\PUBLIC\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Font\FontLoader.h">
+      <Filter>헤더 파일\PUBLIC\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\SAMPLES\PhysicsEngine.h">
+      <Filter>엔진목록</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\PhysicsTool\PhysicsInitializer.h">
+      <Filter>헤더 파일\PUBLIC\PhysicsTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\PhysicsTool\LinearMotion.h">
+      <Filter>헤더 파일\PUBLIC\PhysicsTool</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDefinition.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\1. DirectX12Initialization\x64\Debug\Shader\Default.hlsl">
+      <Filter>리소스 파일</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
