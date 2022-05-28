@@ -13,7 +13,7 @@ and my favorite hobbies are **health training** and **programming**.
  💖  Thank you ! 💖   
 <br></br>
 
-## Recommendations from this repository
+## ⭐ Recommendations from this repository ⭐
 [Dx12PhysicsSimulations](https://github.com/orangelie/Physics-Modeling/tree/main/PhysicsModelingDX12/VSSolution): The project is based on its own DirectX12-based engine. This project includes several useful examples for physical simulators. If there is anything to note, it is not a cmake project, so please slightly modify the C++ library reference part in the project setting.  
   
 [Unity3DSimulations](https://github.com/orangelie/Physics-Modeling/tree/main/Unity3D): This project is based on Unity Engine. This project includes some useful examples for physical simulators. The code is highly toxic, so please refer to it.
