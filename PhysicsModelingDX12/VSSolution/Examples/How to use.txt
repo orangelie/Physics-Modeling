@@ -1,0 +1,7 @@
+# Rendering
+[1]: Wireframe
+[2]: Solid
+
+# Simulation
+[C]: Stop the simulation.
+[V]: Restart the simulation.
