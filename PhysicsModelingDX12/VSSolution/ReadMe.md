@@ -2,23 +2,11 @@
 
 ![](https://img.shields.io/github/followers/orangelie.svg?style=social&label=Follow&maxAge=2592000)
 
-😀 Hello, everyone.  😀  
-This repository is a cmake project about physical engine, physical simulation, and physical rendering based on **directx9, directx11, directx12 and unity3d**.
-***Please understand that my skills regarding cmake are poor. :D***  
-  
-I am a student who is interested in  
-**game programming** and **graphics technology**.  
-I am trying to achieve my dream mainly in game graphics,  
-and my favorite hobbies are **health training** and **programming**.  
+The folders and files in this location are physical simulations using **DirectX12**.
+
  💖  Thank you ! 💖   
 <br></br>
 
-## Recommendations from this repository
-[Dx12PhysicsSimulations](https://github.com/orangelie/Physics-Modeling/tree/main/PhysicsModelingDX12/VSSolution): The project is based on its own DirectX12-based engine. This project includes several useful examples for physical simulators. If there is anything to note, it is not a cmake project, so please slightly modify the C++ library reference part in the project setting.  
-  
-[Unity3DSimulations](https://github.com/orangelie/Physics-Modeling/tree/main/Unity3D): This project is based on Unity Engine. This project includes some useful examples for physical simulators. The code is highly toxic, so please refer to it.
-
-<br></br>
 ![](https://img.shields.io/github/license/orangelie/Physics-Modeling.svg) ![](https://img.shields.io/github/forks/orangelie/Physics-Modeling.svg) ![](https://img.shields.io/github/stars/orangelie/Physics-Modeling.svg) ![](https://img.shields.io/github/downloads/orangelie/Physics-Modeling/total.svg)  ![](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 
 
@@ -31,3 +19,4 @@ and my favorite hobbies are **health training** and **programming**.
 ***Do not give up.***
 
 </div>
+
