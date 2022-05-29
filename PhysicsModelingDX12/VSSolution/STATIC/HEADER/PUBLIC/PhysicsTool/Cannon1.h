@@ -58,15 +58,15 @@ namespace orangelie {
 
 		class Cannon1 : public PhysicsEngine {
 		private:
-			float sx, sy, sz;				// 
-			float Vm;						// 
-			float Yb;						// 
-			float L;						// 
-			float Alpha;					// 
-			float Gamma;					// 
+			float sx, sy, sz;				// 발사체의 위치
+			float Vm;						// 발사체의 속력
+			float Yb;						// 대포의 처음 y발사위치
+			float L;						// 대포의 길이
+			float Alpha;					// xz평면과 수직인 벡터사이의 각
+			float Gamma;					// 상향벡터를 xz평면에 투영한 벡터사이의 각
 
-			float Length, Height, Width;	// 
-			float X, Y, Z;					// 
+			float Length, Height, Width;	// 목표물의 길이, 크기, 높이
+			float X, Y, Z;					// 목표물의 x, y, z좌표
 
 			float Lx, Ly, Lz, cosX, cosY, cosZ, b;
 			float xe, ze, tx1, ty1, tz1, tx2, ty2, tz2;
