@@ -26,6 +26,9 @@
 #include <unordered_map>
 #include <array>
 
+#include <random>
+#include <functional>
+
 #define THROW(e) { \
 	std::string __err_message = std::string(__FILE__) + ": " + e; \
 	throw std::runtime_error(__err_message); \

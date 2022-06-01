@@ -1,6 +1,6 @@
 /*
 *
-* < LinearMotion.h >
+* < Cannon1.h >
 * Github: https://github.com/orangelie
 * // Copyright (C) 2022 by orangelie, Inc. All right reserved.
 * // MIT License
@@ -48,15 +48,16 @@
 namespace orangelie {
 
 	namespace PhysicsTool {
-
-		constexpr const float g = 9.80665f;
-		constexpr const float pi = 3.14159f;
-
+		
 		inline float DegToRad(float degrees) {
-			return (degrees * (pi / 180.0f));
+			return (degrees * (3.14159f / 180.0f));
 		}
 
 		class Cannon1 : public PhysicsEngine {
+		private:
+			const float g = 9.80665f;
+			const float pi = 3.14159f;
+
 		private:
 			float sx, sy, sz;				// 발사체의 위치
 			float Vm;						// 발사체의 속력

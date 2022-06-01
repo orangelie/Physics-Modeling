@@ -22,6 +22,11 @@ struct Vector3f {
 		return { v1.x + v2.x, v1.y + v2.y, v1.z + v2.z };
 	}
 
+	Vector3f& operator+=(Vector3f v1) {
+		*this = { this->x + v1.x, this->y + v1.y, this->z + v1.z };
+		return *this;
+	}
+
 	friend Vector3f operator*(Vector3f v1, Vector3f v2) {
 		return { v1.x * v2.x, v1.y * v2.y, v1.z * v2.z };
 	}
@@ -127,6 +132,11 @@ class PhysicsEngine : public orangelie::Engine::ZekrosEngine {
 protected:
 	void SetCameraSpeed(float d) {
 		m_CameraSpeed = d;
+	}
+
+	void SetTitle(const std::string title) {
+		std::string n = "[ " + title + " ]            by ZekrosEngine@orangelie";
+		SetWindowTextA(m_hWnd, n.c_str());
 	}
 
 	std::unique_ptr<Sphere> sphere(SphereOpt sphereOpt) {

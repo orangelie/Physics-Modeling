@@ -182,6 +182,7 @@
     <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Mesh\GeometryGenerator.h" />
     <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Mesh\MeshTools.h" />
     <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\PhysicsTool\Cannon1.h" />
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\PhysicsTool\Hanabi.h" />
     <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\PhysicsTool\LinearMotion.h" />
     <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\PhysicsTool\PhysicsInitializer.h" />
     <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Rendering\RenderSystem.h" />
