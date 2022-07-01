@@ -22,6 +22,10 @@ struct Vector3f {
 		return { v1.x + v2.x, v1.y + v2.y, v1.z + v2.z };
 	}
 
+	friend Vector3f operator-(Vector3f v1, Vector3f v2) {
+		return { v1.x - v2.x, v1.y - v2.y, v1.z - v2.z };
+	}
+
 	Vector3f& operator+=(Vector3f v1) {
 		*this = { this->x + v1.x, this->y + v1.y, this->z + v1.z };
 		return *this;
@@ -34,6 +38,14 @@ struct Vector3f {
 	friend Vector3f operator*(Vector3f v1, float s) {
 		return { v1.x * s, v1.y * s, v1.z * s };
 	}
+
+	friend Vector3f operator*(float s, Vector3f v1) {
+		return { v1.x * s, v1.y * s, v1.z * s };
+	}
+
+	friend Vector3f operator/(Vector3f v1, float s) {
+		return { v1.x / s, v1.y / s, v1.z / s };
+	}
 };
 
 struct GeometryOpt {
@@ -42,6 +54,7 @@ public:
 	Vector3f acceleration = { 0.0f, 0.0f, 0.0f };
 	Vector3f velocity = { 0.0f, 0.0f, 0.0f };
 	Vector3f position = { 0.0f, 0.0f, 0.0f };
+	float m = 0.00001f;
 
 public:
 	virtual void SetScale(float x, float y, float z) = 0;
