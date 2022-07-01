@@ -88,11 +88,11 @@ namespace orangelie
 
 				SphereOpt sphOpt1(0.0f, 0.0f, 0.0f, 1.0f, 1.0f, 1.0f, "red");
 				Spheres_euler = sphere(sphOpt1);
-				Spheres_euler->acceleration = { 0.5f, 0.0f, 0.0f };
+				Spheres_euler->acceleration = { 1.5f, 0.0f, 0.0f };
 
 				SphereOpt sphOpt2(0.0f, 10.0f, 0.0f, 1.0f, 1.0f, 1.0f, "green");
 				Spheres_rk = sphere(sphOpt2);
-				Spheres_rk->force = { 0.5f, 0.0f, 0.0f };
+				Spheres_rk->force = { 1.5f, 0.0f, 0.0f };
 				Spheres_rk->m = 1.0f;
 			}
 
