@@ -66,27 +66,18 @@ namespace orangelie
 
 			void Rugge_Kutta(float t, float dt, Sphere* Object)
 			{
-				auto Integrate = [](float dt, Vector3f position, Vector3f velocity, Vector3f acceleration) -> std::tuple<Vector3f, Vector3f>
+				auto Integrate = [](float dt, Vector3f position, Vector3f velocity, Vector3f force, float m) -> std::tuple<Vector3f, Vector3f>
 				{
-					Vector3f F = { 0.5f, 0.0f, 0.0f };
-					float m = 1.0f;
-
-					acceleration = F / m;
-
-					return { velocity, acceleration };
+					return { velocity, force / m };
 				};
 
-				auto [rk1_v, rk1_a] = Integrate(t, Object->position, Object->velocity, Object->acceleration);
-				auto [rk2_v, rk2_a] = Integrate(t + dt / 2.0f, Object->position + (rk1_v / 2.0f) * dt, Object->velocity + (rk1_a / 2.0f) * dt, Object->acceleration);
-				auto [rk3_v, rk3_a] = Integrate(t + dt / 2.0f, Object->position + (rk2_v / 2.0f) * dt, Object->velocity + (rk2_a / 2.0f) * dt, Object->acceleration);
-				auto [rk4_v, rk4_a] = Integrate(t + dt, Object->position + rk3_v * dt, Object->velocity + rk3_a * dt, Object->acceleration);
+				auto [rk1_v, rk1_a] = Integrate(t, Object->position, Object->velocity, Object->force, Object->m);
+				auto [rk2_v, rk2_a] = Integrate(t + dt / 2.0f, Object->position + (rk1_v / 2.0f) * dt, Object->velocity + (rk1_a / 2.0f) * dt, Object->force, Object->m);
+				auto [rk3_v, rk3_a] = Integrate(t + dt / 2.0f, Object->position + (rk2_v / 2.0f) * dt, Object->velocity + (rk2_a / 2.0f) * dt, Object->force, Object->m);
+				auto [rk4_v, rk4_a] = Integrate(t + dt, Object->position + rk3_v * dt, Object->velocity + rk3_a * dt, Object->force, Object->m);
 
-				char buf[0x30] = {};
-				sprintf_s(buf, "(%f, %f, %f)", Object->position.x, Object->position.y, Object->position.z);
-				if((int)t % 5 == 0 && (int)t != 0)
-					MessageBoxA(0, buf, "", MB_OK);
-				Object->position += dt * ((float)(1 / 6) * rk1_v + (float)(1 / 3) * rk2_v + (float)(1 / 3) * rk3_v + (float)(1 / 6) * rk4_v);
-				Object->velocity += dt * ((float)(1 / 6) * rk1_a + (float)(1 / 3) * rk2_a + (float)(1 / 3) * rk3_a + (float)(1 / 6) * rk4_a);
+				Object->position += dt * ((1.0f / 6.0f) * rk1_v + (1.0f / 3.0f) * rk2_v + (1.0f / 3.0f) * rk3_v + (1.0f / 6.0f) * rk4_v);
+				Object->velocity += dt * ((1.0f / 6.0f) * rk1_a + (1.0f / 3.0f) * rk2_a + (1.0f / 3.0f) * rk3_a + (1.0f / 6.0f) * rk4_a);
 			}
 
 		protected:
@@ -101,7 +92,8 @@ namespace orangelie
 
 				SphereOpt sphOpt2(0.0f, 10.0f, 0.0f, 1.0f, 1.0f, 1.0f, "green");
 				Spheres_rk = sphere(sphOpt2);
-				Spheres_euler->acceleration = { 0.5f, 0.0f, 0.0f };
+				Spheres_rk->force = { 0.5f, 0.0f, 0.0f };
+				Spheres_rk->m = 1.0f;
 			}
 
 			virtual void render(float dt)
