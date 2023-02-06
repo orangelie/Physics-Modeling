@@ -185,7 +185,9 @@
     <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\PhysicsTool\Hanabi.h" />
     <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\PhysicsTool\Integrator.h" />
     <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\PhysicsTool\LinearMotion.h" />
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\PhysicsTool\NewtonTest.h" />
     <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\PhysicsTool\PhysicsInitializer.h" />
+    <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\PhysicsTool\RigidbodySim.h" />
     <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Rendering\RenderSystem.h" />
     <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Shader\ShaderSystem.h" />
     <ClInclude Include="..\..\STATIC\HEADER\PUBLIC\Texture\TextureTools.h" />

@@ -195,9 +195,9 @@ namespace orangelie {
 		}
 
 		void ZekrosEngine::OnResize() {
-			// assert(m_D3D12Interface->GetDevice());
-			// assert(m_DxgiInterface->GetSwapChain());
-			// assert(m_CommandAllocator);
+			assert(m_D3D12Interface->GetDevice());
+			assert(m_DxgiInterface->GetSwapChain());
+			assert(m_CommandAllocator);
 
 			FlushCommandQueue();
 
